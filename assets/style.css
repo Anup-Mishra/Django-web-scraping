@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.Navbar{
+    background-color: rgb(74 122 255);
+    height: 55px;
+}
+.Navbar h3{
+    color: white;
+}
+.Navbar-header{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Search-bar input{
+    height: 35px;
+    width: 30rem;
+    margin: 8px;
+    border-radius: 7px;
+    border: none;
+    padding: 0px 0px 0px 12px;
+}
+
+.Search-bar button{
+    background-color:white;
+    color: rgb(128, 128, 128);
+    height: 35px;
+    width: 6rem;
+    margin: 8px;
+    border-radius: 7px;
+    border: none;
+    padding: 0px 0px 0px 12px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+    margin: 25px 0px 0px 150px;
+}
+.Text-area textarea{
+    height: 150px;
+    width: 70%;
+}
+
+.col2 {
+    align-items: center;
+    margin: 5% 42%;
+}
+.Text-area2 textarea{
+    height: 97px;
+    width: 115%;
+}
